@@ -1,0 +1,171 @@
+.campaign-icon {
+  width: 75px;
+  height: 75px;
+  border-radius: 35%;
+  margin-right: 10px;
+  position: relative;
+}
+
+.campaign-header {
+  height: 10%;
+  padding: 20px 20px 20px 20px;
+  position: relative;
+}
+
+.header-info {
+  position: absolute;
+  top: 15%;
+  left: 30%;
+  line-height: 0.5;
+}
+
+.header-info span {
+  color: #009330;
+}
+
+.cover-photo {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.buttons {
+  height: 50px;
+  margin: auto;
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid #e0eef2;
+  background: linear-gradient(#e0eef2, #e0eef2) no-repeat center/2px 100%;
+  background-color: #fff;
+}
+
+.media-container {
+  width: 100%;
+  height: 29%;
+  background-color: #f7fbfc;
+  border-top: 1px solid #e0eef2;
+  border-bottom: 1px solid #e0eef2;
+}
+
+.cover-link {
+  width: 50px;
+  display: inline-block;
+  margin-top: 12%;
+}
+
+.chain {
+  transform: rotate(90deg);
+}
+
+.scrolling-wrapper {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+.card {
+  position: relative;
+  display: inline-block;
+  width: 26%;
+  padding: 20px 10px 20px 10px;
+  z-index: 1;
+}
+
+.card3 {
+  position: relative;
+  display: inline-block;
+  width: 28%;
+  padding: 20px 10px 20px 10px;
+  z-index: 1;
+}
+
+.scrolling-wrapper {
+  height: 100%;
+  width: 100%;
+  -webkit-overflow-scrolling: touch;
+}
+
+.scrolling-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #fff;
+  border-bottom: 1px solid #e0eef2;
+}
+
+.griplines {
+  margin-left: 25px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  float: left;
+}
+
+.logo {
+  position: absolute;
+  left: 45%;
+  top: 2.5%;
+}
+
+.overlay {
+  position: absolute;
+  top: 35%;
+  left: 40%;
+  z-index: 2;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .header-info {
+    left: 15%;
+  }
+
+  .card3 {
+    width: 30%;
+  }
+
+  .cover-link {
+    margin-top: 7%;
+  }
+
+  .overlay {
+    top: 40%;
+    left: 45%;
+  }
+  .logo {
+    position: absolute;
+    left: 50%;
+    top: 2%;
+  }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1080px) {
+  .header-info {
+    left: 12%;
+  }
+
+  .card3 {
+    width: 31%;
+  }
+
+  .cover-link {
+    margin-top: 5%;
+  }
+
+  .overlay {
+    top: 40%;
+    left: 45%;
+  }
+
+  .logo {
+    position: absolute;
+    left: 50%;
+    top: 1.5%;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 320px) {
+  .header-info {
+    left: 35%;
+  }
+}
